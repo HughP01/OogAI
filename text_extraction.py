@@ -33,3 +33,9 @@ def extract_and_print(file_path, language='spa'): #to see what languages are ava
             print(f"Error processing PDF: {e}")
     else:
         print("Unsupported file format")
+
+
+# Usage examples
+#if __name__ == "__main__":
+    #extract_and_print(r'C:\Users\Downloads\test.png',language="spa") 
+    #extract_and_print('r'C:\Users\Downloadsdocument.pdf',language="ita")
